@@ -1,107 +1,107 @@
 {
-  "questions": [
+  "questions_easy": [
     {
-      "questionText": "What is the capital of France?",
+      "questionText": "Pytanie 1",
       "answerOptions": [
         {
-          "answerText": "New York",
+          "answerText": "False",
           "isCorrect": false
         },
         {
-          "answerText": "London",
+          "answerText": "False",
           "isCorrect": false
         },
         {
-          "answerText": "Paris",
+          "answerText": "True",
           "isCorrect": true
         },
         {
-          "answerText": "Dublin",
+          "answerText": "False",
           "isCorrect": false
         }
       ]
     },
     {
-      "questionText": "Who is CEO of Tesla?",
+      "questionText": "Pytanie 2",
       "answerOptions": [
         {
-          "answerText": "Jeff Bezos",
+          "answerText": "False",
           "isCorrect": false
         },
         {
-          "answerText": "Elon Musk",
+          "answerText": "True",
           "isCorrect": true
         },
         {
-          "answerText": "Bill Gates",
+          "answerText": "False",
           "isCorrect": false
         },
         {
-          "answerText": "Tony Stark",
+          "answerText": "False",
           "isCorrect": false
         }
       ]
     },
     {
-      "questionText": "The iPhone was created by which company?",
+      "questionText": "Pytanie 3",
       "answerOptions": [
         {
-          "answerText": "Apple",
+          "answerText": "True",
           "isCorrect": true
         },
         {
-          "answerText": "Intel",
+          "answerText": "False",
           "isCorrect": false
         },
         {
-          "answerText": "Amazon",
+          "answerText": "False",
           "isCorrect": false
         },
         {
-          "answerText": "Microsoft",
+          "answerText": "False",
           "isCorrect": false
         }
       ]
     },
     {
-      "questionText": "How many Harry Potter books are there?",
+      "questionText": "Pytanie 4",
       "answerOptions": [
         {
-          "answerText": "1",
+          "answerText": "False",
           "isCorrect": false
         },
         {
-          "answerText": "4",
+          "answerText": "False",
           "isCorrect": false
         },
         {
-          "answerText": "6",
+          "answerText": "False",
           "isCorrect": false
         },
         {
-          "answerText": "7",
+          "answerText": "True",
           "isCorrect": true
         }
       ]
     },
 
     {
-      "questionText": "ggggggggggg?",
+      "questionText": "Pytanie 5?",
       "answerOptions": [
         {
-          "answerText": "a",
+          "answerText": "False",
           "isCorrect": false
         },
         {
-          "answerText": "b",
+          "answerText": "False",
           "isCorrect": false
         },
         {
-          "answerText": "c",
+          "answerText": "False",
           "isCorrect": false
         },
         {
-          "answerText": "d",
+          "answerText": "True",
           "isCorrect": true
         }
       ]

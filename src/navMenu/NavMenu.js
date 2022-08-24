@@ -14,10 +14,8 @@ export const NavMenu = () => {
                 </nav>
 
             </div>
-
         </div>
 
     );
-
 };
 

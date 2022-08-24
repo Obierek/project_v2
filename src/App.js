@@ -1,12 +1,14 @@
 import React, {useEffect, useState} from 'react';
 
-const api = "http://localhost:3000/questions"
+const api = "http://localhost:3000/questions_easy"
 
 export default function App() {
+
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [showScore, setShowScore] = useState(false);
     const [score, setScore] = useState(0);
-    const [questions, setQuestions] = useState(null)
+    const [questions, setQuestions] = useState("");
+
 
     const getQuestions = () => {
 
@@ -20,12 +22,10 @@ export default function App() {
             .then(setQuestions)
             .catch((err) => console.log(err));
     };
-    console.log(questions);
 
     useEffect(getQuestions, []);
 
-
-    const handleAnswer = (isCorrect) => {
+    const handleClick = (isCorrect) => {
         if (isCorrect) {
             setScore(score + 1);
         }
@@ -40,22 +40,23 @@ export default function App() {
     };
     return (
         <div className='app'>
+            <h1>Quiz</h1>
             {showScore ? (
-                <div className='score-section'>
+                <div className='score'>
                     Odpowiedziałeś poprawnie na {score} z {questions.length} pytań!
                 </div>
             ) : (
                 <>
-                    <div className='question-section'>
-                        <div className='question-count'>
-                            <span>Question {currentQuestion + 1}</span>/{questions.length}
+                    <div className='question'>
+                        <div className='question__count'>
+                            <span>Pytanie {currentQuestion + 1} z {questions.length}</span>
                         </div>
-                        <div className='question-text'>{questions[currentQuestion].questionText}</div>
+                        <div className='question__text'>{questions[currentQuestion].questionText}</div>
                     </div>
-                    <div className='answer-section'>
+                    <div className='answer'>
                         {questions[currentQuestion].answerOptions.map((answerOption) => (
                             <button
-                                onClick={() => handleAnswer(answerOption.isCorrect)}>{answerOption.answerText}</button>
+                                onClick={() => handleClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
                         ))}
                     </div>
                 </>
