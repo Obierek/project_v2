@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import ChangeDifficulty from "./ChangeDifficulty";
 
-const api = "http://localhost:4000/questions_medium"
+const api = "http://localhost:4000/questions_easy"
 
 export default function App() {
 
@@ -16,25 +16,40 @@ export default function App() {
         setQuestionsForLevel(questions.filter(item => {
             return item.level === level
         }))
-    }, [level])
+    }, [level, questions]);
 
 
-    useEffect(async () => {
+    useEffect( () => {
+        const getData = async () => {
+            await fetch(api)
+                .then((res) => {
+                    if (res.ok) {
+                        return res.json();
+                    }
 
-        await fetch(api)
-            .then((res) => {
-                if (res.ok) {
-                    return res.json();
-                }
-
-            })
-            .then(data => {
-                setQuestions(data);
-            })
-            .catch((err) => console.log(err));
-
-
+                })
+                .then(setQuestions)
+                .catch((err) => console.log(err));
+        }
+        getData();
     }, []);
+
+    // useEffect(async () => {
+    //
+    //     await fetch(api)
+    //         .then((res) => {
+    //             if (res.ok) {
+    //                 return res.json();
+    //             }
+    //
+    //         })
+    //         .then(data => {
+    //             setQuestions(data);
+    //         })
+    //         .catch((err) => console.log(err));
+    //
+    //
+    // }, []);
 
     // const getQuestions = () => {
     //
@@ -57,7 +72,7 @@ export default function App() {
         }
 
         const nextQuestion = currentQuestion + 1;
-        if (nextQuestion < questions.length) {
+        if (nextQuestion < questionsForLevel.length) {
             setCurrentQuestion(nextQuestion);
         } else {
             setShowScore(true);
@@ -67,30 +82,34 @@ export default function App() {
     console.log(questions);
 
     return (
-        <div className='app'>
-            <h1>Quiz</h1>
-            {showScore ?
-                <div className='score'>
-                    Odpowiedziałeś poprawnie na {score} z {questionsForLevel.length} pytań!
-                </div>
-                :
-                <>
-                    <div className='question'>
-                        <div className='question__count'>
-                            <span>Pytanie {currentQuestion + 1} z {questionsForLevel.length}</span>
-                        </div>
-                        <div
-                            className='question__text'>{questionsForLevel[currentQuestion]?.questionText ?? "Question cannot be loaded"}</div>
+        <>
+            <ChangeDifficulty changeLevelAction={setLevel} currentLevel={level}/>
+            <div className='app'>
+                <h1>Quiz</h1>
+                {showScore ?
+                    <div className='score'>
+                        Odpowiedziałeś poprawnie na {score} z {questionsForLevel.length} pytań!
                     </div>
-                    {questionsForLevel[currentQuestion]?.answerOptions && <div className='answer'>
-                        {questionsForLevel[currentQuestion].answerOptions.map((answerOption) => (
-                            <button
-                                onClick={() => handleClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
-                        ))}
-                    </div>}
-                </>
-            }
-        </div>
+                    :
+                    <>
+                        <div className='question'>
+                            <div className='question__count'>
+                                <span>Pytanie {currentQuestion + 1} z {questionsForLevel.length}</span>
+                            </div>
+                            <div
+                                className='question__text'>{questionsForLevel[currentQuestion]?.questionText ?? "Question cannot be loaded"}</div>
+                        </div>
+                        {questionsForLevel[currentQuestion]?.answerOptions && <div className='answer'>
+                            {questionsForLevel[currentQuestion].answerOptions.map((answerOption) => (
+                                <button
+                                    onClick={() => handleClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
+                            ))}
+                        </div>}
+                    </>
+                }
+            </div>
+        </>
+
     );
 };
 

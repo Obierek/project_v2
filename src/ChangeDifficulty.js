@@ -1,22 +1,20 @@
 import React from 'react';
 
-function ChangeDifficulty() {
+function ChangeDifficulty({changeLevelAction, currentLevel}) {
 
     const handleClickDifficulty = (value) => {
-        const buttonValue = value;
 
+        changeLevelAction(value)
 
-        console.log("Button Value:", buttonValue);
-        return buttonValue;
     }
 
 
 
     return (
         <div>
-            <button onClick={() => handleClickDifficulty("easy")} value="easy">Pytania proste</button>
-            <button onClick={() => handleClickDifficulty("medium")} value="medium">Pytania średnie</button>
-            <button onClick={() => handleClickDifficulty("hard")} value="hard">Pytania trudne</button>
+            <button className={currentLevel === "easy" ? "active" : "default"} onClick={() => handleClickDifficulty("easy")} value="easy">Pytania proste</button>
+            <button className={currentLevel === "medium" ? "active" : "default"} onClick={() => handleClickDifficulty("medium")} value="medium">Pytania średnie</button>
+            <button className={currentLevel === "hard" ? "active" : "default"} onClick={() => handleClickDifficulty("hard")} value="hard">Pytania trudne</button>
         </div>
     );
 }
