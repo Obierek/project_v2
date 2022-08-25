@@ -86,7 +86,226 @@
     },
 
     {
-      "questionText": "Pytanie 5?",
+      "questionText": "Pytanie 5",
+      "answerOptions": [
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "True",
+          "isCorrect": true
+        }
+      ]
+    }
+  ],
+
+  "questions_medium": [
+    {
+      "questionText": "Pytanie 1 Medium",
+      "answerOptions": [
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "True",
+          "isCorrect": true
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Pytanie 2 Medium",
+      "answerOptions": [
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "True",
+          "isCorrect": true
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Pytanie 3 Medium",
+      "answerOptions": [
+        {
+          "answerText": "True",
+          "isCorrect": true
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Pytanie 4 Medium",
+      "answerOptions": [
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "True",
+          "isCorrect": true
+        }
+      ]
+    },
+
+    {
+      "questionText": "Pytanie 5 Medium",
+      "answerOptions": [
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "True",
+          "isCorrect": true
+        }
+      ]
+    }
+  ],
+
+
+  "questions_hard": [
+    {
+      "questionText": "Pytanie 1 Hard",
+      "answerOptions": [
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "True",
+          "isCorrect": true
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Pytanie 2 Hard",
+      "answerOptions": [
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "True",
+          "isCorrect": true
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Pytanie 3 Hard",
+      "answerOptions": [
+        {
+          "answerText": "True",
+          "isCorrect": true
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Pytanie 4 Hard",
+      "answerOptions": [
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "True",
+          "isCorrect": true
+        }
+      ]
+    },
+
+    {
+      "questionText": "Pytanie 5 Hard",
       "answerOptions": [
         {
           "answerText": "False",
@@ -107,4 +326,6 @@
       ]
     }
   ]
+
+
 }
