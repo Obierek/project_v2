@@ -1,7 +1,7 @@
 {
-  "questions_easy": [
+  "questions": [
     {
-      "questionText": "Pytanie 1q",
+      "questionText": "Pytanie z db 1. Easy.",
       "level": "easy",
       "answerOptions": [
         {
@@ -23,7 +23,95 @@
       ]
     },
     {
-      "questionText": "Pytanie 2",
+      "questionText": "Pytanie z db 2. Easy.",
+      "level": "easy",
+      "answerOptions": [
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "True",
+          "isCorrect": true
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Pytanie z db 3. Easy.",
+      "level": "easy",
+      "answerOptions": [
+        {
+          "answerText": "True",
+          "isCorrect": true
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Pytanie z db 4. Easy.",
+      "level": "easy",
+      "answerOptions": [
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "True",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "Pytanie z db 5. Easy.",
+      "level": "easy",
+      "answerOptions": [
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "True",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "Pytanie z db 1. Medi.um",
       "level": "medium",
       "answerOptions": [
         {
@@ -31,46 +119,112 @@
           "isCorrect": false
         },
         {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
           "answerText": "True",
           "isCorrect": true
-        },
-        {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "False",
-          "isCorrect": false
         }
       ]
     },
     {
-      "questionText": "Pytanie 3",
+      "questionText": "Pytanie z db 2. Medi.um",
+      "level": "medium",
+      "answerOptions": [
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "True",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "Pytanie z db 3. Medi.um",
+      "level": "medium",
+      "answerOptions": [
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "True",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "Pytanie z db 4. Medi.um",
+      "level": "medium",
+      "answerOptions": [
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "True",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "Pytanie z db 5. Medi.um",
+      "level": "medium",
+      "answerOptions": [
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "True",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "Pytanie z db 1. Hard.",
       "level": "hard",
       "answerOptions": [
         {
-          "answerText": "True",
-          "isCorrect": true
-        },
-        {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "False",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "questionText": "Pytanie 4",
-      "level": "easy",
-      "answerOptions": [
-        {
           "answerText": "False",
           "isCorrect": false
         },
@@ -88,97 +242,9 @@
         }
       ]
     },
-
     {
-      "questionText": "Pytanie 5",
-      "level": "easy",
-      "answerOptions": [
-        {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "True",
-          "isCorrect": true
-        }
-      ]
-    }
-  ],
-
-  "questions_medium": [
-    {
-      "questionText": "Pytanie 1 Medium",
-      "answerOptions": [
-        {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "True",
-          "isCorrect": true
-        },
-        {
-          "answerText": "False",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "questionText": "Pytanie 2 Medium",
-      "answerOptions": [
-        {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "True",
-          "isCorrect": true
-        },
-        {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "False",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "questionText": "Pytanie 3 Medium",
-      "answerOptions": [
-        {
-          "answerText": "True",
-          "isCorrect": true
-        },
-        {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "False",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "questionText": "Pytanie 4 Medium",
+      "questionText": "Pytanie z db 2. Hard.",
+      "level": "hard",
       "answerOptions": [
         {
           "answerText": "False",
@@ -198,97 +264,9 @@
         }
       ]
     },
-
     {
-      "questionText": "Pytanie 5 Medium",
-      "answerOptions": [
-        {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "True",
-          "isCorrect": true
-        }
-      ]
-    }
-  ],
-
-
-  "questions_hard": [
-    {
-      "questionText": "Pytanie 1 Hard",
-      "answerOptions": [
-        {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "True",
-          "isCorrect": true
-        },
-        {
-          "answerText": "False",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "questionText": "Pytanie 2 Hard",
-      "answerOptions": [
-        {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "True",
-          "isCorrect": true
-        },
-        {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "False",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "questionText": "Pytanie 3 Hard",
-      "answerOptions": [
-        {
-          "answerText": "True",
-          "isCorrect": true
-        },
-        {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "False",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "questionText": "Pytanie 4 Hard",
+      "questionText": "Pytanie z db 3. Hard.",
+      "level": "hard",
       "answerOptions": [
         {
           "answerText": "False",
@@ -308,9 +286,31 @@
         }
       ]
     },
-
     {
-      "questionText": "Pytanie 5 Hard",
+      "questionText": "Pytanie z db 4. Hard.",
+      "level": "hard",
+      "answerOptions": [
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "False",
+          "isCorrect": false
+        },
+        {
+          "answerText": "True",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "Pytanie z db 5. Hard.",
+      "level": "hard",
       "answerOptions": [
         {
           "answerText": "False",
@@ -331,6 +331,4 @@
       ]
     }
   ]
-
-
 }
