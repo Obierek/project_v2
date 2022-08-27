@@ -10,29 +10,15 @@ function ChangeDifficulty({changeLevelAction, currentLevel, questionsForLevel, c
 
 
     const [time, setTime] = useState(0);
-    const [isRunning, setIsRunning] = useState(false);
-
-    useEffect(() => {
-        if (isRunning) {
-            const timeoutId = setInterval(() => {
-                setTime((prevTime) => prevTime + 1);
-            }, 1000);
-
-            return () => {
-                clearTimeout(timeoutId);
-            };
-        }
-
-    }, [isRunning]);
-
+    const [timeoutId, setTimeoutId] = useState(0);
 
     useEffect(()=>{
-        const stopTime = showScore;
-           if(true === stopTime) {
-            setIsRunning(false);
+
+           if(showScore) {
+                  clearTimeout(timeoutId);
         }
 
-    },[time])
+    },[showScore])
 
 
     console.log("showScore: " + showScore);
@@ -45,7 +31,10 @@ function ChangeDifficulty({changeLevelAction, currentLevel, questionsForLevel, c
          };
 
     const startTime = () => {
-        setIsRunning(true);
+       const id = setInterval(() => {
+            setTime((prevTime) => prevTime + 1);
+        }, 1000);
+           setTimeoutId(id);
     };
 
     // console.log(time)
