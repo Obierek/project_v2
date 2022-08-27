@@ -18,13 +18,6 @@ export default function App() {
 
 
     useEffect(() => {
-        setQuestionsForLevel(questions.filter(item => {
-            return item.level === level
-        }))
-    }, [level, questions]);
-
-
-    useEffect(() => {
         const getData = async () => {
             await fetch(api)
                 .then((res) => {
@@ -39,6 +32,11 @@ export default function App() {
         getData();
     }, []);
 
+    useEffect(() => {
+        setQuestionsForLevel(questions.filter(item => {
+            return item.level === level
+        }))
+    }, [level, questions]);
 
 
     const handleClickAnswer = (isCorrect) => {
@@ -56,21 +54,17 @@ export default function App() {
     };
     // console.log(questions);
 
-
     const resetQuiz = () => {
         setShowScore(false)
         setCurrentQuestion(0)
         setScore(0)
         setLevel("")
-
     }
 
 
     return (
         <>
             {/*<Timer/>*/}
-
-
 
             <div className='app'>
 
@@ -109,14 +103,20 @@ export default function App() {
                                         onClick={() => handleClickAnswer(answerOption.isCorrect)}>{answerOption.answerText}
                                     </button>
                                 ))}
-                            </div>}
+                            </div>
+                        }
                     </>
                 }
             </div>
 
 
 
-            <ChangeDifficulty changeLevelAction={setLevel} currentLevel={level} questionsForLevel={questionsForLevel} currentQuestion={currentQuestion}/>
+            <ChangeDifficulty
+                changeLevelAction={setLevel}
+                currentLevel={level}
+                questionsForLevel={questionsForLevel}
+                currentQuestion={currentQuestion}
+                showScore={showScore}/>
         </>
 
 

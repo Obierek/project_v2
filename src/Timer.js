@@ -36,7 +36,7 @@ function Timer() {
 
     return (
         <div>
-            <h1>Time: {time}s</h1>
+            <h2>Time: {time}s</h2>
             <button onClick={lap}>Lap</button>
             <button onClick={stop}>Stop</button>
             <button onClick={reset}>Reset</button>
