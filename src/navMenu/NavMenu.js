@@ -1,7 +1,7 @@
 import React from "react";
 import './NavMenu.scss';
 
-export const NavMenu = () => {
+export default function NavMenu() {
     return (
         <div className="container">
             <div className="nav">
