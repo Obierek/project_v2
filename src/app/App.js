@@ -80,7 +80,7 @@ export default function App() {
                     {showScore ?
                         <div className='app__score'>
                             Odpowiedziałeś poprawnie na {score} z {questionsForLevel.length} pytań!
-                            <button className="score-reset-btn" onClick={resetQuiz}>Zacznij od nowa</button>
+                            <button className="app__score-reset-btn" onClick={resetQuiz}>Zacznij od nowa</button>
                         </div>
                         :
 

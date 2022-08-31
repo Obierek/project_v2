@@ -5,17 +5,12 @@ export default function NavMenu() {
     return (
         <div className="container">
             <div className="nav">
-                <nav className="nav__section">
-                    <a className="nav__link" href="#">Home</a>
-                    <a className="nav__link" href="#">App</a>
-                    <a className="nav__link" href="#">GitHub</a>
-                    <a className="nav__link" href="#">About me</a>
-                    <div className="nav__dot"></div>
-                </nav>
-
+                <a className="nav__link" href="#">Home</a>
+                <a className="nav__link" href="#">App</a>
+                <a className="nav__link" href="#">GitHub</a>
+                <a className="nav__link" href="#">About me</a>
             </div>
         </div>
-
     );
 };
 

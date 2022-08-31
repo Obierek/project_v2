@@ -9,21 +9,21 @@ function ChangeDifficulty({changeLevelAction, currentLevel, startTime, time}) {
     return (
         <>
             {!currentLevel &&
-                <div>
-                    <button className={currentLevel === "easy" ? "active" : "default"}
+                <div className="app__difficulty">
+                    <button className={currentLevel === "easy" ? "active" : "app__difficulty-btn"}
                             onClick={() => {
                                 startTime()
                                 handleClickDifficulty("easy")
                             }}
                             value="easy">Pytania proste
                     </button>
-                    <button className={currentLevel === "medium" ? "active" : "default"}
+                    <button className={currentLevel === "medium" ? "active" : "app__difficulty-btn"}
                             onClick={() => {
                                 startTime()
                                 handleClickDifficulty("medium")
                             }} value="medium">Pytania średnie
                     </button>
-                    <button className={currentLevel === "hard" ? "active" : "default"}
+                    <button className={currentLevel === "hard" ? "active" : "app__difficulty-btn"}
                             onClick={() => {
                                 startTime()
                                 handleClickDifficulty("hard")
