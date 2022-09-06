@@ -1,332 +1,301 @@
 {
   "questions": [
     {
-      "questionText": "Pytanie z db 1. Easy.Pytanie z db 1. Easy.Pytanie z db 1. Easy.Pytanie z db 1. Easy.Pytanie z db 1. Easy.",
+      "questionText": "W zananym powiedzeniu jedna wiosny nie czyni.",
       "level": "easy",
       "answerOptions": [
         {
-          "answerText": "FalseFalseFalseFalseFalseFalseFalseFalse",
+          "answerText": "Przepiórka",
           "isCorrect": false
         },
         {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "True",
+          "answerText": "Jaskółka",
           "isCorrect": true
         },
+
         {
-          "answerText": "FalseFalseFalseFalseFalseFalseFalseFalseFalseFalseFalseFalseFalseFalseFalse",
+          "answerText": "Sokółka",
           "isCorrect": false
         }
       ]
     },
     {
-      "questionText": "Pytanie z db 2. Easy.",
+      "questionText": "Z ilu zawodników składa się drużyna piłki nożnej?",
       "level": "easy",
       "answerOptions": [
         {
-          "answerText": "False",
+          "answerText": "10",
           "isCorrect": false
         },
         {
-          "answerText": "True",
+          "answerText": "11",
           "isCorrect": true
         },
         {
-          "answerText": "False",
+          "answerText": "6",
           "isCorrect": false
         },
         {
-          "answerText": "False",
+          "answerText": "22",
           "isCorrect": false
         }
       ]
     },
     {
-      "questionText": "Pytanie z db 3. Easy.",
+      "questionText": "Co kolekcjonuje filatelista?",
       "level": "easy",
       "answerOptions": [
         {
-          "answerText": "True",
+          "answerText": "Znaczki pocztowe",
           "isCorrect": true
         },
         {
-          "answerText": "False",
+          "answerText": "Monety",
           "isCorrect": false
         },
         {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "False",
+          "answerText": "Karty do gry",
           "isCorrect": false
         }
       ]
     },
     {
-      "questionText": "Pytanie z db 4. Easy.",
+      "questionText": "Kim był Mikołaj Kopernik?",
       "level": "easy",
       "answerOptions": [
         {
-          "answerText": "False",
+          "answerText": "Chemikiem",
           "isCorrect": false
         },
         {
-          "answerText": "False",
+          "answerText": "Gastrologiem",
           "isCorrect": false
         },
         {
-          "answerText": "False",
+          "answerText": "Astrologiem",
           "isCorrect": false
         },
         {
-          "answerText": "True",
+          "answerText": "Astronomem",
           "isCorrect": true
         }
       ]
     },
     {
-      "questionText": "Pytanie z db 5. Easy.",
+      "questionText": "Najmniejszym ptakiem na świecie jest??",
       "level": "easy",
       "answerOptions": [
         {
-          "answerText": "False",
+          "answerText": "Wróbel",
           "isCorrect": false
         },
         {
-          "answerText": "False",
+          "answerText": "Jaskółka",
           "isCorrect": false
         },
         {
-          "answerText": "False",
+          "answerText": "Mysikrólik",
           "isCorrect": false
         },
         {
-          "answerText": "True",
+          "answerText": "Koliber",
           "isCorrect": true
         }
       ]
     },
     {
-      "questionText": "Pytanie z db 1. Medi.um",
+      "questionText": "Wynalazcą dynamitu był:",
       "level": "medium",
       "answerOptions": [
         {
-          "answerText": "False",
+          "answerText": "Albert Einstein",
           "isCorrect": false
         },
         {
-          "answerText": "False",
+          "answerText": "Isaak Newton",
           "isCorrect": false
         },
         {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "True",
+          "answerText": "Alfred Nobel",
           "isCorrect": true
         }
       ]
     },
     {
-      "questionText": "Pytanie z db 2. Medi.um",
+      "questionText": "Ankara jest stolicą?",
       "level": "medium",
       "answerOptions": [
         {
-          "answerText": "False",
+          "answerText": "Niemiec",
           "isCorrect": false
         },
         {
-          "answerText": "False",
+          "answerText": "Francji",
           "isCorrect": false
         },
         {
-          "answerText": "False",
+          "answerText": "Albanii",
           "isCorrect": false
         },
         {
-          "answerText": "True",
+          "answerText": "Turcji",
           "isCorrect": true
         }
       ]
     },
     {
-      "questionText": "Pytanie z db 3. Medi.um",
+      "questionText": "Najdłuższa rzeka w polsce to:",
       "level": "medium",
       "answerOptions": [
         {
-          "answerText": "False",
+          "answerText": "Odra",
           "isCorrect": false
         },
         {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "True",
+          "answerText": "Wisła",
           "isCorrect": true
+        },
+        {
+          "answerText": "Soła",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Warta",
+          "isCorrect": false
         }
       ]
     },
     {
-      "questionText": "Pytanie z db 4. Medi.um",
+      "questionText": "Największym zwierzęciem jest:",
       "level": "medium",
       "answerOptions": [
         {
-          "answerText": "False",
+          "answerText": "Słoń",
           "isCorrect": false
         },
         {
-          "answerText": "False",
+          "answerText": "Hipopotam",
           "isCorrect": false
         },
         {
-          "answerText": "False",
-          "isCorrect": false
+          "answerText": "Płetwal błękitny",
+          "isCorrect": true
         },
         {
           "answerText": "True",
-          "isCorrect": true
+          "isCorrect": false
         }
       ]
     },
     {
-      "questionText": "Pytanie z db 5. Medi.um",
+      "questionText": "Kraj kwitnących wiśni to:",
       "level": "medium",
       "answerOptions": [
         {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "True",
+          "answerText": "Japonia",
           "isCorrect": true
+        },
+        {
+          "answerText": "Włochy",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Chiny",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Hiszpania",
+          "isCorrect": false
         }
       ]
     },
     {
-      "questionText": "Pytanie z db 1. Hard.",
+      "questionText": "Pierwszym królem Polski był:",
       "level": "hard",
       "answerOptions": [
         {
-          "answerText": "False",
+          "answerText": "Jan III Sobieski",
           "isCorrect": false
         },
         {
-          "answerText": "False",
+          "answerText": "Bolesław Krzywousty",
           "isCorrect": false
         },
         {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "True",
+          "answerText": "Bolesław Chrobry",
           "isCorrect": true
+        },
+        {
+          "answerText": "Mieszko I",
+          "isCorrect": false
         }
       ]
     },
     {
-      "questionText": "Pytanie z db 2. Hard.",
+      "questionText": "Na tablicy Mendelejewa symbolem FE oznaczone jest żelazo?",
       "level": "hard",
       "answerOptions": [
         {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "True",
+          "answerText": "Tak",
           "isCorrect": true
+        },
+        {
+          "answerText": "Nie",
+          "isCorrect": false
         }
       ]
     },
     {
-      "questionText": "Pytanie z db 3. Hard.",
+      "questionText": "Ziemia jest:",
       "level": "hard",
       "answerOptions": [
         {
-          "answerText": "False",
+          "answerText": "Pierwszą palnetą od słońca",
           "isCorrect": false
         },
         {
-          "answerText": "False",
+          "answerText": "Drugą palnetą od słońca",
           "isCorrect": false
         },
         {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "True",
+          "answerText": "Trzecią palnetą od słońca",
           "isCorrect": true
+        },
+        {
+          "answerText": "Czwartą palnetą od słońca",
+          "isCorrect": false
         }
       ]
     },
     {
-      "questionText": "Pytanie z db 4. Hard.",
+      "questionText": "Na banknocie 20zł widać profil:",
       "level": "hard",
       "answerOptions": [
         {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "True",
+          "answerText": "Bolesława I Chrobrego",
           "isCorrect": true
+        },
+        {
+          "answerText": "Królowej Jadwigi",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Jana III Sobieskiego",
+          "isCorrect": false
         }
       ]
     },
     {
-      "questionText": "Pytanie z db 5. Hard.",
+      "questionText": "Równik dzieli kulę ziemską na dwie półkule. Które?",
       "level": "hard",
       "answerOptions": [
         {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "False",
-          "isCorrect": false
-        },
-        {
-          "answerText": "True",
+          "answerText": "Północną i południową",
           "isCorrect": true
+        },
+        {
+          "answerText": "Wschodnią i zachodnią",
+          "isCorrect": false
         }
       ]
     }
