@@ -1,0 +1,22 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin: 3rem;
+  min-width: 80%;
+  min-height: 350px;
+  background-color: #888888;
+  border: 1px solid #2c2c2c;
+  border-radius: 3rem;
+  padding: 20px;
+}
+
+.intro__logo {
+display: flex;
+  //justify-content: center;
+  align-items: center;
+}
+.logo-cl {
+  margin-left: 10px;
+}
