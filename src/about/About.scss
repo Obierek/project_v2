@@ -1,0 +1,160 @@
+@mixin icon-size {
+  width: 100px;
+  height: 100px;
+  background-size: 60px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: all 0.4s ease-in-out;
+  transform: rotate(-360deg);
+}
+
+@mixin rotation {
+  transform: rotate(360deg);
+}
+
+
+.icons-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px 10px;
+  grid-auto-flow: row dense;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  grid-template-areas:
+    "icons-grid__html icons-grid__css icons-grid__sass"
+    "icons-grid__js icons-grid__es6 icon__react"
+    "icon_github icons-grid__webpack icons-grid__ws";
+
+  &__html {
+    grid-area: icons-grid__html;
+    background-image: url(../icons/free_icon_1_html.svg);
+    @include icon-size
+  }
+
+  &__css {
+    grid-area: icons-grid__css;
+    background-image: url(../icons/free_icon_1_css.svg);
+    @include icon-size
+  }
+
+  &__sass {
+    grid-area: icons-grid__sass;
+    background-image: url(../icons/free_icon_1_sass.svg);
+    @include icon-size
+  }
+
+  &__js {
+    grid-area: icons-grid__js;
+    background-image: url(../icons/free_icon_1_js.svg);
+    @include icon-size
+  }
+
+  &__es6 {
+    grid-area: icons-grid__es6;
+    background-image: url(../icons/free_icon_1_es6.svg);
+    @include icon-size
+  }
+
+  &__react {
+    grid-area: icon__react;
+    background-image: url(../icons/free_icon_1_react.svg);
+    @include icon-size
+  }
+
+  &__github {
+    grid-area: icon_github;
+    background-image: url(../icons/free_icon_1_github.svg);
+    @include icon-size
+  }
+
+  &__webpack {
+    grid-area: icons-grid__webpack;
+    background-image: url(../icons/free_icon_1_webpack.svg);
+    @include icon-size
+  }
+
+  &__ws {
+    grid-area: icons-grid__ws;
+    background-image: url(../icons/free_icon_1_webstorm.svg);
+    @include icon-size
+  }
+
+
+  &__html:hover {
+    background-image: url(../icons/free_icon_1_html_color.svg);
+    @include rotation;
+  }
+
+  &__css:hover {
+    background-image: url(../icons/free_icon_1_css_color.svg);
+    @include rotation;
+  }
+
+  &__sass:hover {
+    background-image: url(../icons/free_icon_1_sass_color.svg);
+    @include rotation;
+  }
+
+  &__js:hover {
+    background-image: url(../icons/free_icon_1_js_color.svg);
+    @include rotation;
+  }
+
+  &__es6:hover {
+    background-image: url(../icons/free_icon_1_es6_color.svg);
+    @include rotation;
+  }
+
+  &__react:hover {
+    background-image: url(../icons/free_icon_1_react_color.svg);
+    @include rotation;
+  }
+
+  &__github:hover {
+    background-image: url(../icons/free_icon_1_github.svg);
+    @include rotation;
+  }
+
+  &__webpack:hover {
+    background-image: url(../icons/free_icon_1_webpack.svg);
+    @include rotation;
+  }
+
+  &__ws:hover {
+    background-image: url(../icons/free_icon_1_webstorm_color.svg);
+    @include rotation;
+  }
+}
+
+
+.text {
+  display: grid;
+  grid-row-gap: 30px;
+}
+
+.btn__contact {
+  min-height: 40px;
+  color: $white;
+  background-color: $primary-color;
+  border: 1px solid $border-color;
+  border-radius: 5px;
+  font-size: large;
+  font-weight: 100;
+  margin: 0.3rem;
+  padding: 0 20px;
+  cursor: pointer;
+
+  &:hover {
+    background: none;
+  }
+
+  &:active {
+    background: red;
+  }
+}
+
+
+

@@ -27,7 +27,6 @@ root.render(
                 <Route path="app" element={<App/>}/>
                 <Route path="github" element={<GitHub/>}/>
                 <Route path="about" element={<About/>}/>
-                {/*</Route>*/}
             </Routes>
             <Footer/>
         </BrowserRouter>

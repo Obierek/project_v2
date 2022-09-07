@@ -94,7 +94,7 @@ export default function App() {
                                         </div>
 
                                         <div
-                                            className='question__text'>{questionsForLevel[currentQuestion]?.questionText ?? "Trwa ładowanie pytań"}
+                                            className='app__question__text'>{questionsForLevel[currentQuestion]?.questionText ?? "Trwa ładowanie pytań"}
                                         </div>
                                     </> :
                                     <div>Wybierz poziom trudności !</div>
