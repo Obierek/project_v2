@@ -1,7 +1,7 @@
 @mixin icon-size {
-  width: 100px;
-  height: 100px;
-  background-size: 60px;
+  width: 6.25rem;
+  height: 6.25rem;
+  background-size: 3.75rem;
   background-position: center center;
   background-repeat: no-repeat;
   transition: all 0.4s ease-in-out;
@@ -12,12 +12,11 @@
   transform: rotate(360deg);
 }
 
-
 .icons-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 10px 10px;
+  gap: 0.625rem 0.625rem;
   grid-auto-flow: row dense;
   justify-content: center;
   align-content: center;
@@ -27,6 +26,10 @@
     "icons-grid__html icons-grid__css icons-grid__sass"
     "icons-grid__js icons-grid__es6 icon__react"
     "icon_github icons-grid__webpack icons-grid__ws";
+
+  .icons__rotation {
+    @include rotation;
+  }
 
   &__html {
     grid-area: icons-grid__html;
@@ -129,31 +132,13 @@
   }
 }
 
-
 .text {
   display: grid;
-  grid-row-gap: 30px;
+  grid-row-gap: 1.875rem;
 }
 
 .btn__contact {
-  min-height: 40px;
-  color: $white;
-  background-color: $primary-color;
-  border: 1px solid $border-color;
-  border-radius: 5px;
-  font-size: large;
-  font-weight: 100;
-  margin: 0.3rem;
-  padding: 0 20px;
-  cursor: pointer;
-
-  &:hover {
-    background: none;
-  }
-
-  &:active {
-    background: red;
-  }
+  @include btn;
 }
 
 

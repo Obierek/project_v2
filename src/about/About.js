@@ -1,10 +1,38 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 function About() {
+
+    useEffect(() => {
+
+        const icons = [...document.querySelectorAll("#icons > div")];
+        const timeout = setTimeout(() => {
+            icons.map(el => {
+                return el.classList.toggle("icons__rotation")
+            });
+
+        }, 3000);
+
+        return () => clearTimeout(timeout);
+    },[]);
+
+    useEffect(() => {
+
+        const icons = [...document.querySelectorAll("#icons > div")];
+        const timeout = setTimeout(() => {
+            icons.map(el => {
+                return el.classList.remove("icons__rotation")
+            });
+
+        }, 3400);
+
+        return () => clearTimeout(timeout);
+    },[]);
+
+
     return (
         <div className="container">
             <div className="app">
-                <div className="icons-grid">
+                <div id="icons" className="icons-grid">
                     <div className="icons-grid__html"/>
                     <div className="icons-grid__css"/>
                     <div className="icons-grid__sass"/>
@@ -24,7 +52,10 @@ function About() {
                     <p>
                         Obecnie jestem otwarty na wszelkie propozycje współpracy i zapraszam do kontaktu:
                     </p>
-                    <button className="btn__contact">Kontakt</button>
+                    {/*<button className="btn__contact">Kontakt</button>*/}
+                    <p>email: <a href="mailto:marcobie@wp.pl">marcobie@wp.pl</a></p>
+
+                    <p>tel.: +48 513 625 539</p>
 
                 </div>
             </div>
