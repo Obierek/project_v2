@@ -1,7 +1,9 @@
 import React, {useEffect, useState} from 'react';
 import ChangeDifficulty from "./ChangeDifficulty";
 
-const api = "http://localhost:4000/questions"
+// const api = "http://localhost:3000/questions"
+
+const api = "https://obierek.github.io/jsonapi/db.json"
 
 export default function App() {
 
