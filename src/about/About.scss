@@ -27,6 +27,18 @@
     "icons-grid__js icons-grid__es6 icon__react"
     "icon_github icons-grid__webpack icons-grid__ws";
 
+
+  @media screen and (max-width: 500px) {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "icons-grid__html icons-grid__css"
+    "icons-grid__js icons-grid__sass"
+    "icons-grid__es6 icon__react"
+    "icon_github icons-grid__webpack"
+    "icons-grid__ws icons-grid__ws";
+  }
+
   .icons__rotation {
     @include rotation;
   }

@@ -13,7 +13,7 @@ function About() {
         }, 3000);
 
         return () => clearTimeout(timeout);
-    },[]);
+    }, []);
 
     useEffect(() => {
 
@@ -26,7 +26,7 @@ function About() {
         }, 3400);
 
         return () => clearTimeout(timeout);
-    },[]);
+    }, []);
 
 
     return (
@@ -50,11 +50,9 @@ function About() {
                         zastosowałem w swoim pierwszym projekcie.
                     </p>
                     <p>
-                        Obecnie jestem otwarty na wszelkie propozycje współpracy i zapraszam do kontaktu:
+                        Obecnie jestem otwarty na propozycje współpracy i zapraszam do kontaktu:
                     </p>
-                    {/*<button className="btn__contact">Kontakt</button>*/}
                     <p>email: <a href="mailto:marcobie@wp.pl">marcobie@wp.pl</a></p>
-
                     <p>tel.: +48 513 625 539</p>
 
                 </div>
