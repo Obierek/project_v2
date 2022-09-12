@@ -9,9 +9,7 @@ import Footer from "./footer/Footer";
 import {
     BrowserRouter,
     Routes,
-    Switch,
     Route,
-    Link
 } from "react-router-dom";
 import About from "./about/About";
 import Home from "./home/Home";
