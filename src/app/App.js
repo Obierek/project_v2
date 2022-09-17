@@ -3,7 +3,7 @@ import ChangeDifficulty from "./ChangeDifficulty";
 
 // const api = "http://localhost:3000/questions"
 
-const api = "https://obierek.github.io/jsonapi/db.json"
+const api = "https://marcobie.github.io/jsonapi/db.json"
 
 export default function App() {
 
