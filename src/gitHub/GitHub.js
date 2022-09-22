@@ -7,7 +7,7 @@ function GitHub(props) {
 
                 <div className="home__intro">
                     <p>Zapraszam do odwiedzenia mojego konta na GitHub:
-                         <a href="https://github.com/Obierek"> https://github.com/Obierek</a>
+                         <a href="https://github.com/marcobie"> https://github.com/marcobie</a>
                     </p>
                 </div>
             </div>
