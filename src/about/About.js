@@ -22,7 +22,7 @@ function About() {
                         zastosowałem w swoim pierwszym projekcie.
                     </p>
                     <p>
-                        Obecnie jestem otwarty na propozycje współpracy i zapraszam do kontaktu :
+                        Obecnie jestem otwarty na propozycje współpracy i zapraszam do kontaktu:
                     </p>
                     <p>email: <a href="mailto:marcobie@wp.pl">marcobie@wp.pl</a></p>
                     <p>tel.: +48 513 625 539</p>
