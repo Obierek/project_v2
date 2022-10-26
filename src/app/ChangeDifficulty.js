@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ChangeDifficulty({changeLevelAction, currentLevel, startTime, time}) {
+function ChangeDifficulty({ changeLevelAction, currentLevel, startTime, time }) {
 
     const handleClickDifficulty = (value) => {
         changeLevelAction(value)
@@ -11,23 +11,23 @@ function ChangeDifficulty({changeLevelAction, currentLevel, startTime, time}) {
             {!currentLevel &&
                 <div className="app__difficulty">
                     <button className={currentLevel === "easy" ? "active" : "app__difficulty-btn"}
-                            onClick={() => {
-                                startTime()
-                                handleClickDifficulty("easy")
-                            }}
-                            value="easy">Pytania proste
+                        onClick={() => {
+                            startTime()
+                            handleClickDifficulty("easy")
+                        }}
+                        value="easy">Pytania proste
                     </button>
                     <button className={currentLevel === "medium" ? "active" : "app__difficulty-btn"}
-                            onClick={() => {
-                                startTime()
-                                handleClickDifficulty("medium")
-                            }} value="medium">Pytania średnie
+                        onClick={() => {
+                            startTime()
+                            handleClickDifficulty("medium")
+                        }} value="medium">Pytania średnie
                     </button>
                     <button className={currentLevel === "hard" ? "active" : "app__difficulty-btn"}
-                            onClick={() => {
-                                startTime()
-                                handleClickDifficulty("hard")
-                            }} value="hard">Pytania trudne
+                        onClick={() => {
+                            startTime()
+                            handleClickDifficulty("hard")
+                        }} value="hard">Pytania trudne
                     </button>
                 </div>
             }

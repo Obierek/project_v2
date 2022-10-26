@@ -1,47 +1,19 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 
 function About() {
-
-    useEffect(() => {
-
-        const icons = [...document.querySelectorAll("#icons > div")];
-        const timeout = setTimeout(() => {
-            icons.map(el => {
-                return el.classList.toggle("icons__rotation")
-            });
-
-        }, 3000);
-
-        return () => clearTimeout(timeout);
-    }, []);
-
-    useEffect(() => {
-
-        const icons = [...document.querySelectorAll("#icons > div")];
-        const timeout = setTimeout(() => {
-            icons.map(el => {
-                return el.classList.remove("icons__rotation")
-            });
-
-        }, 3400);
-
-        return () => clearTimeout(timeout);
-    }, []);
-
-
     return (
         <div className="container">
             <div className="app">
                 <div id="icons" className="icons-grid">
-                    <div className="icons-grid__html"/>
-                    <div className="icons-grid__css"/>
-                    <div className="icons-grid__sass"/>
-                    <div className="icons-grid__js"/>
-                    <div className="icons-grid__es6"/>
-                    <div className="icons-grid__react"/>
-                    <div className="icons-grid__github"/>
-                    <div className="icons-grid__webpack"/>
-                    <div className="icons-grid__ws"/>
+                    <div className="icons-grid__html" />
+                    <div className="icons-grid__css" />
+                    <div className="icons-grid__sass" />
+                    <div className="icons-grid__js" />
+                    <div className="icons-grid__es6" />
+                    <div className="icons-grid__react" />
+                    <div className="icons-grid__github" />
+                    <div className="icons-grid__webpack" />
+                    <div className="icons-grid__ws" />
                 </div>
                 <div className="text">
                     <p>

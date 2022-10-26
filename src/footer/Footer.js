@@ -4,7 +4,7 @@ function Footer(props) {
     return (
         <div className="container">
             <div className="footer">
-                 <p className="footer__link" href="#">Copyright ©</p>
+                <p className="footer__link" href="#">Copyright ©</p>
 
             </div>
         </div>

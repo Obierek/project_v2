@@ -1,7 +1,5 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import ChangeDifficulty from "./ChangeDifficulty";
-
-// const api = "http://localhost:3000/questions"
 
 const api = "https://marcobie.github.io/jsonapi/db.json"
 
