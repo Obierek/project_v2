@@ -17,7 +17,7 @@ function AppMain() {
         <BrowserRouter>
             <NavMenu />
             <Routes>
-                <Route path="/" element={<Home />} />
+                <Route path="/project_quiz" element={<Home />} />
                 <Route path="app" element={<App />} />
                 <Route path="github" element={<GitHub />} />
                 <Route path="about" element={<About />} />
